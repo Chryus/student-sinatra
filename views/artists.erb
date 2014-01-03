@@ -1,0 +1,9 @@
+<h2> <%= "Hello. welcome to the artists view. Below is a list of your fellow artists." %> </h2>
+
+<ul>
+<% @artists.each do |artist| %>
+	<li><%= artist %></li>
+<% end %>
+</ul>
+
+<p> <%= "There are #{@artists.length} artists in the artist list." %> </p>

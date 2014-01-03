@@ -1,0 +1,10 @@
+
+<h1> <%= "Hi #{@thing.name}. You're number is #{@thing.num}" %> </h1>
+
+<h3> <%= "Here's a list of fancy random numbers"%> </h3>
+
+<ul>
+	<% @random_numbers.each do |number| %>
+	<li><%= number %></li>
+	<% end %>
+</ul>
